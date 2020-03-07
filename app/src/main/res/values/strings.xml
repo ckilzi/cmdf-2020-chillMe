@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">chillMe</string>
     <string name="title_home">Home</string>
+    <string name="music_button">Music</string>
+    <string name="breathe_button">Breathe</string>
+    <string name="jokes_button">Jokes</string>
+    <string name="help_button">Help</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 </resources>

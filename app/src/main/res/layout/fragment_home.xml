@@ -8,63 +8,52 @@
 
     <Button
         android:id="@+id/musicMenuButton"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="80dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
-        android:text="music"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        android:background="#FFFFFF"
+        android:text="@string/music_button"
+        app:layout_constraintEnd_toStartOf="@+id/breathingMenuButton"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/helpMenuButton"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
-        android:text="help"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/jokesMenuButton" />
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:text="@string/help_button"
+        app:layout_constraintEnd_toEndOf="@+id/breathingMenuButton"
+        app:layout_constraintStart_toEndOf="@+id/musicMenuButton"
+        app:layout_constraintTop_toTopOf="@+id/jokesMenuButton" />
 
     <Button
         android:id="@+id/jokesMenuButton"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
-        android:text="Jokes"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/breathingMenuButton" />
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@color/mainColor"
+        android:text="@string/jokes_button"
+        app:layout_constraintEnd_toEndOf="@+id/musicMenuButton"
+        app:layout_constraintStart_toStartOf="@+id/musicMenuButton"
+        app:layout_constraintTop_toBottomOf="@+id/musicMenuButton" />
 
     <Button
         android:id="@+id/breathingMenuButton"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
-        android:text="breathe"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/mainColor"
+        android:text="@string/breathe_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/musicMenuButton" />
+        app:layout_constraintStart_toEndOf="@+id/musicMenuButton"
+        app:layout_constraintTop_toTopOf="@+id/musicMenuButton" />
 
     <TextView
         android:id="@+id/text_home"
@@ -78,6 +67,8 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
 </androidx.constraintlayout.widget.ConstraintLayout>
