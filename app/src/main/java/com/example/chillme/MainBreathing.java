@@ -8,18 +8,18 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainBreathing extends AppCompatActivity implements View.OnClickListener {
-    private Button Sama_Vritti_Button;
-    private Button Diaphragmic_Button;
+    private Button sv_Button;
+    private Button d_Button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_breathing);
-        Sama_Vritti_Button=findViewById(R.id.Sama_Vritti_Button);
-        Diaphragmic_Button=findViewById(R.id.Diaphragmatic_Button);
+        sv_Button=findViewById(R.id.Sama_Vritti_Button);
+        d_Button=findViewById(R.id.Diaphragmatic_Button);
 
-        Sama_Vritti_Button.setOnClickListener(this);
-        Diaphragmic_Button.setOnClickListener(this);
+        sv_Button.setOnClickListener(this);
+        d_Button.setOnClickListener(this);
 
     }
 
@@ -27,8 +27,8 @@ public class MainBreathing extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.Sama_Vritti_Button:
-                Intent intent= new Intent(MainBreathing.this,SamaVrittiActivity.class);
-                startActivity(intent);
+                Intent sv_intent= new Intent(MainBreathing.this,SamaVrittiActivity.class);
+                startActivity(sv_intent);
                 break;
             case R.id.Diaphragmatic_Button:
                 Intent diaphragmaticintent= new Intent(MainBreathing.this,DiaphragmaticActivity.class);

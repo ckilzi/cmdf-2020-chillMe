@@ -57,17 +57,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //System.out.println("triggered event");
         switch(v.getId()){
             case R.id.breathingMenuButton:
+                intent= new Intent(MainActivity.this, MainBreathing.class);
+                startActivity(intent);
                 break;
             case R.id.helpMenuButton:
                 break;
             case R.id.musicMenuButton:
                 Intent music_intent = new Intent(MainActivity.this, MusicActivity.class);
                 startActivity(music_intent);
-
                 break;
             case R.id.jokesMenuButton:
-
-                intent= new Intent(MainActivity.this,JokesActivity.class);
+                intent = new Intent(MainActivity.this,JokesActivity.class);
                 startActivity(intent);
                 break;
             case R.id.profileButton:

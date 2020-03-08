@@ -12,6 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".DiaphragmaticActivity"></activity>
+        <activity android:name=".SamaVrittiActivity" />
+        <activity android:name=".MainBreathing" />
+
         <activity android:name=".UserProfile"></activity>
         <activity android:name=".ui.Song9Activity" />
         <activity android:name=".ui.Song8Activity" />

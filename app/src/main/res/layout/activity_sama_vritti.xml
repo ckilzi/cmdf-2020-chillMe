@@ -30,4 +30,11 @@
         app:texts="@array/b1_arr"
         app:timeout="4000" />
 
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-139dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

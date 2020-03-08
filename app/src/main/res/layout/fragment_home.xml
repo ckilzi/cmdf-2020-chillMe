@@ -38,6 +38,7 @@
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:clickable="true"
                 android:padding="20dp">
 
                 <ImageView
@@ -45,9 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:cropToPadding="true"
-                    android:src="@drawable/ic_breatheicon"
-                    android:visibility="visible"
-                    tools:visibility="visible" />
+                    android:src="@drawable/ic_breatheicon" />
 
                 <Button
                     android:id="@+id/breathingMenuButton"
@@ -55,13 +54,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#00E0F9FF"
-                    android:text="@string/breathe_button"
-                    android:visibility="invisible" />
+                    android:visibility="visible"
+                    tools:visibility="invisible" />
             </FrameLayout>
 
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:clickable="true"
                 android:padding="20dp">
                 <Button
                     android:id="@+id/musicMenuButton"
