@@ -145,4 +145,17 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/junegull"
+        android:shadowColor="@android:color/holo_red_light"
+        android:text="@string/profileButton"
+        android:textColor="@android:color/holo_red_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainMenu" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

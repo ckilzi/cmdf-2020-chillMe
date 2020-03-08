@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button helpButton;
     private Button breatheButton;
     private Button musicButton;
+    private Button profileButton;
 
 
     @Override
@@ -37,11 +38,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
        breatheButton=findViewById(R.id.breathingMenuButton);
        helpButton=findViewById(R.id.helpMenuButton);
        musicButton=findViewById(R.id.musicMenuButton);
+       profileButton=findViewById(R.id.profileButton);
 
        jokesButton.setOnClickListener(this);
        breatheButton.setOnClickListener(this);
        helpButton.setOnClickListener(this);
        musicButton.setOnClickListener(this);
+       profileButton.setOnClickListener(this);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
 
@@ -50,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Log.d("SWITCH","onClick");
+        Intent intent;
         //System.out.println("triggered event");
         switch(v.getId()){
             case R.id.breathingMenuButton:
@@ -63,7 +67,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.jokesMenuButton:
 
-                Intent intent= new Intent(MainActivity.this,JokesActivity.class);
+                intent= new Intent(MainActivity.this,JokesActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.profileButton:
+                intent= new Intent(MainActivity.this,UserProfile.class);
                 startActivity(intent);
                 break;
         }
