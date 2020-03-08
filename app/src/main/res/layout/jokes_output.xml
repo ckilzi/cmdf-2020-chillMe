@@ -9,11 +9,15 @@
 
     <Button
         android:id="@+id/questionButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
+        android:background="#CFCFCF"
         android:fontFamily="@font/junegull"
         android:text="@string/questionMarks"
+        android:textColor="#000000"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,12 +25,14 @@
 
     <Button
         android:id="@+id/nextJoke"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/secondaryColor"
+        android:background="#E3E3E3"
         android:fontFamily="@font/junegull"
         android:hapticFeedbackEnabled="true"
         android:text="@string/showMeMore"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,8 +43,14 @@
         android:id="@+id/setupText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="88dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:fontFamily="@font/junegull"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,4 +67,28 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/questionButton" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:foregroundGravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nextJoke">
+
+        <ImageView
+            android:id="@+id/jokeAnswerSprite"
+            android:layout_width="276dp"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_laughdown"
+            tools:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/newJokeSprite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_laughthink" />
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
