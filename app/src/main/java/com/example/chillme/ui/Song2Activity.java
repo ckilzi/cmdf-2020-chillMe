@@ -10,14 +10,20 @@ import com.example.chillme.R;
 import com.example.chillme.model.MyCanvas;
 
 public class Song2Activity extends AppCompatActivity {
-
+    private MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         MyCanvas canvas=new MyCanvas(this, Color.rgb(255,204,153));
         setContentView(canvas);
 
-        final MediaPlayer mp2 = MediaPlayer.create(this, R.raw.adaytoremember);
-        mp2.start();
+        mp = MediaPlayer.create(this, R.raw.adaytoremember);
+        mp.start();
     }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mp.stop();
+    }
+
 }

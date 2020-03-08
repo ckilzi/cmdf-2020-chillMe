@@ -11,15 +11,24 @@ import com.example.chillme.model.MyCanvas;
 
 public class Song5Activity extends AppCompatActivity {
 
+    private MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MyCanvas canvas=new MyCanvas(this, Color.rgb(204,255,255));
 
+        MyCanvas canvas=new MyCanvas(this,Color.rgb(204,255,255) );
         setContentView(canvas);
 
+        mp= MediaPlayer.create(canvas.getContext(), R.raw.birthofahero);
+        mp.start();
+    }
 
-        final MediaPlayer mp5 = MediaPlayer.create(this, R.raw.cute);
-        mp5.start();
+
+
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mp.stop();
     }
 }

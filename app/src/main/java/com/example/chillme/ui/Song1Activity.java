@@ -10,7 +10,7 @@ import com.example.chillme.R;
 import com.example.chillme.model.MyCanvas;
 
 public class Song1Activity extends AppCompatActivity {
-
+    private MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +18,16 @@ public class Song1Activity extends AppCompatActivity {
         MyCanvas canvas=new MyCanvas(this,Color.RED );
         setContentView(canvas);
 
-        final MediaPlayer mp1 = MediaPlayer.create(canvas.getContext(), R.raw.adventure);
-        mp1.start();
+        mp= MediaPlayer.create(canvas.getContext(), R.raw.adventure);
+        mp.start();
+    }
+
+
+
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mp.stop();
     }
 }
