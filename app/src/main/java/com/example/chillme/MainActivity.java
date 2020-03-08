@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.helpMenuButton:
+                Intent help_intent = new Intent(MainActivity.this, HelpActivity.class);
+                startActivity(help_intent);
                 break;
             case R.id.musicMenuButton:
                 Intent music_intent = new Intent(MainActivity.this, MusicActivity.class);

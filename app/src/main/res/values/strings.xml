@@ -40,6 +40,11 @@
     <string name="title_activity_sama_vritti">SamaVrittiActivity</string>
     <string name="title_activity_diaphragmatic">DiaphragmaticActivity</string>
 
+
+    <string name="help_heading">Additional Resources</string>
+    <string name="SevenCupsDescription">7Cups is a free anonymous online chat service that connects you to an empathetic listener.</string>
+    <string name="CrisisServicesCanada">If you are experiencing suicidal thoughts, Crisis Services Canada can connect you to a trained responder through text or phone. They also have support services for anyone worried about a loved one.</string>
+    <string name="crisisServicesCanadaLink">https://www.crisisservicescanada.ca/en/</string>
     <string-array name="b1_arr">
         <item>\u0020</item>
         <item>begin this exercise by sitting upright</item>
