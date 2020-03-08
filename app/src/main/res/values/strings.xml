@@ -66,6 +66,7 @@
     <string name="waterLink">https://www.youtube.com/watch?v=q88TFQ9PrP0</string>
     <string name="waterDes">A professor uses an analogy about water bottles to explain how stress can impact us, and why it is so damaging in the long term</string>
     <string name="selfHelpDes">A video offering advice and perspective on surviving hard times and getting out of a rut </string>
+    <string name="chooseActivity">choose an activity!</string>
     <string-array name="b1_arr">
         <item>begin this exercise by sitting upright</item>
         <item>the nature of this exercise is equal breathing</item>
