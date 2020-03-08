@@ -28,7 +28,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:texts="@array/b1_arr"
-        app:timeout="4000" />
+        app:timeout="4000"
+        android:background="@color/mainColor"/>
 
     <VideoView
         android:id="@+id/videoView"
@@ -36,5 +37,11 @@
         android:layout_height="0dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-139dp" />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/my_gif"
+        android:background="@color/mainColor"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

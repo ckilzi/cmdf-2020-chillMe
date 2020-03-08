@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DiaphragmaticActivity">
+    tools:context=".DiaphragmaticActivity"
+    >
 
     <com.tomer.fadingtextview.FadingTextView
         android:id="@+id/D1"
@@ -19,4 +20,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:texts="@array/b2_arr"
         app:timeout="7000" />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/my_gif"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
