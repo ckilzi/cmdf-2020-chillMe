@@ -43,8 +43,29 @@
 
     <string name="help_heading">Additional Resources</string>
     <string name="SevenCupsDescription">7Cups is a free anonymous online chat service that connects you to an empathetic listener.</string>
+    <string name="SevenCupsHead">7Cups</string>
+    <string name="SevenCupsLink">https://www.7cups.com/</string>
     <string name="CrisisServicesCanada">If you are experiencing suicidal thoughts, Crisis Services Canada can connect you to a trained responder through text or phone. They also have support services for anyone worried about a loved one.</string>
     <string name="crisisServicesCanadaLink">https://www.crisisservicescanada.ca/en/</string>
+    <string name="crisisServicesCanadaHead">Crisis Services Canada</string>
+    <string name="spiralsLink">https://bit.ly/2Ix137c</string>
+    <string name="spiralTitle">Interactive Spiral Art</string>
+    <string name="spiralDescription">Create spiral art in browser</string>
+    <string name="LollipopTitle">Video: Leading With Lollipops</string>
+    <string name="LollipopLink">https://www.youtube.com/watch?v=hVCBrkrFrBE</string>
+    <string name="LollipopDes">A TED Talk about the massive positive impact that small interactions can have on the lives of others</string>
+    <string name="rockVideo">Relaxing Video</string>
+    <string name="rockLink">https://www.youtube.com/watch?v=v3zcL3bOiuM</string>
+    <string name="rockDes">A relaxing and meditative video depicting rock balancing</string>
+    <string name="SlamTitle">Video: Uplifting Slam Poetry</string>
+    <string name="SlamLink">https://www.youtube.com/watch?v=8EUZnIVaIos</string>
+    <string name="SlamDes">Slam poet encourages the audience to do good things, and change the world for the better</string>
+    <string name="selfHelpTitle">Advice on Getting Out Of a Funk</string>
+    <string name="selfHelpLink">https://www.youtube.com/watch?v=7XFLTDQ4JMk</string>
+    <string name="waterTitle">Philosophy on Stress</string>
+    <string name="waterLink">https://www.youtube.com/watch?v=q88TFQ9PrP0</string>
+    <string name="waterDes">A professor uses an analogy about water bottles to explain how stress can impact us, and why it is so damaging in the long term</string>
+    <string name="selfHelpDes">A video offering advice and perspective on surviving hard times and getting out of a rut </string>
     <string-array name="b1_arr">
         <item>\u0020</item>
         <item>begin this exercise by sitting upright</item>
