@@ -8,13 +8,13 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.chillme.ui.MusicActivity;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ImageButton jokesButton;
@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageButton breatheButton;
     private ImageButton musicButton;
     private Button profileButton;
+    private ArrayList<String> entryList=new ArrayList<>();
+    private final int REQUEST_CODE=2;
 
 
     @Override
@@ -73,8 +75,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.profileButton:
                 intent= new Intent(MainActivity.this,UserProfile.class);
-                startActivity(intent);
+                intent.putStringArrayListExtra("existingEntries",entryList);
+                startActivityForResult(intent,REQUEST_CODE);
                 break;
+        }
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        //check that the result is not malicious
+        if(REQUEST_CODE==requestCode){
+            assert data!=null;
+            entryList= data.getStringArrayListExtra("entryList");
+            Log.d("USER","onResutl"+entryList);
+
+
+
         }
     }
 }
