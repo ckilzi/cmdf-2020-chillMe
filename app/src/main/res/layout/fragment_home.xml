@@ -22,29 +22,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginBottom="5dp"
             android:clickable="false"
             android:orientation="horizontal"
-            android:padding="0dp"
-            android:paddingLeft="0dp"
-            android:paddingTop="0dp"
-            android:paddingRight="0dp"
-            android:paddingBottom="20dp">
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp">
 
             <FrameLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:clickable="true"
                 android:padding="20dp">
 
                 <ImageButton
                     android:id="@+id/breathingMenuButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="#00FFFFFF"
                     android:cropToPadding="true"
                     android:src="@drawable/ic_breatheicon" />
@@ -54,7 +46,7 @@
 
             <FrameLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:clickable="true"
                 android:padding="20dp">
 <!--                <Button-->
@@ -67,8 +59,8 @@
 
                 <ImageButton
                     android:id="@+id/musicMenuButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:adjustViewBounds="false"
                     android:background="#00FFFFFF"
                     android:cropToPadding="true"
@@ -86,19 +78,19 @@
             android:clickable="false"
             android:orientation="horizontal"
             android:paddingTop="50dp"
-            android:paddingBottom="70dp">
+            android:paddingBottom="50dp">
 
 
             <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:clickable="true"
                 android:padding="20dp">
 
                 <ImageButton
                     android:id="@+id/helpMenuButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_helpicon"
                     android:background="#00FFFFFF"/>
 
@@ -114,7 +106,7 @@
 
             <FrameLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:clickable="true"
                 android:padding="20dp">
 
@@ -129,8 +121,8 @@
 
                 <ImageButton
                     android:id="@+id/jokesMenuButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_laughicon"
                     android:background="#00FFFFFF"/>
 
