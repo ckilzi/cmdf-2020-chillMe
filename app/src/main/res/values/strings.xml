@@ -7,4 +7,6 @@
     <string name="help_button">Help</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="questionMarks">\???</string>
+    <string name="showMeMore">Show Me Another Joke</string>
 </resources>
