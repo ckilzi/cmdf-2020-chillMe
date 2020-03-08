@@ -16,37 +16,30 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent" />-->
 
-
     <com.tomer.fadingtextview.FadingTextView
-        android:id="@+id/SV1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:id="@+id/D1"
+        android:layout_width="362dp"
+        android:layout_height="224dp"
         android:fontFamily="@font/junegull"
-        android:background="@color/mainColor"
         android:gravity="center_horizontal|center_vertical"
         android:textSize="30sp"
-        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView"
+        app:layout_constraintVertical_bias="0.439"
         app:texts="@array/b1_arr"
-        app:timeout="4000"
-        app:visibility="visible" />
-
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-139dp" />
+        app:timeout="3000" />
 
     <pl.droidsonroids.gif.GifImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/mainColor"
+        android:id="@+id/gifImageView"
+        android:layout_width="370dp"
+        android:layout_height="343dp"
+        android:layout_marginTop="72dp"
         android:src="@drawable/my_gif"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="0dp" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

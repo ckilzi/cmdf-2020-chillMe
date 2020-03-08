@@ -25,7 +25,7 @@ public class MyCanvas extends View {
         public void init(){
             brush=new Paint();
             brush.setAntiAlias(true);
-            brush.setStrokeWidth(10f);
+            brush.setStrokeWidth(20f);
             brush.setColor(color);
             brush.setStyle(Paint.Style.STROKE);
             brush.setStrokeJoin(Paint.Join.ROUND);
