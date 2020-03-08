@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.chillme.ui.MusicActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -16,10 +17,10 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button jokesButton;
-    private Button helpButton;
-    private Button breatheButton;
-    private Button musicButton;
+    private ImageButton jokesButton;
+    private ImageButton helpButton;
+    private ImageButton breatheButton;
+    private ImageButton musicButton;
     private Button profileButton;
 
 

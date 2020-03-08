@@ -40,41 +40,41 @@
                 android:layout_height="match_parent"
                 android:padding="20dp">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/breathingMenuButton"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
                     android:cropToPadding="true"
                     android:src="@drawable/ic_breatheicon"
                     android:visibility="visible"
                     tools:visibility="visible" />
 
-                <Button
-                    android:id="@+id/breathingMenuButton"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#00E0F9FF"
-                    android:text="@string/breathe_button"
-                    android:visibility="invisible" />
+<!--                <Button-->
+<!--                    android:id="@+id/breathingMenuButton"-->
+<!--                    style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="#00E0F9FF"-->
+<!--                    android:text="@string/breathe_button"-->
+<!--                    android:visibility="invisible" />-->
             </FrameLayout>
 
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:padding="20dp">
-                <Button
-                    android:id="@+id/musicMenuButton"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#FFFFFF"
-                    android:visibility="visible"
-                    tools:visibility="invisible"/>
+<!--                <Button-->
+<!--                    android:id="@+id/musicMenuButton"-->
+<!--                    style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:visibility="invisible"-->
+<!--                    tools:visibility="invisible"/>-->
 
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="wrap_content"
+                <ImageButton
+                    android:id="@+id/musicMenuButton"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="false"
                     android:background="#00FFFFFF"
@@ -102,20 +102,21 @@
                 android:clickable="true"
                 android:padding="20dp">
 
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/ic_helpicon" />
-
-                <Button
+                <ImageButton
                     android:id="@+id/helpMenuButton"
-                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/help_button"
-                    android:visibility="invisible"
-                    tools:visibility="invisible" />
+                    android:src="@drawable/ic_helpicon"
+                    android:background="#00FFFFFF"/>
+
+<!--                <Button-->
+<!--                    android:id="@+id/helpMenuButton"-->
+<!--                    style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="@string/help_button"-->
+<!--                    android:visibility="invisible"-->
+<!--                    tools:visibility="invisible" />-->
             </FrameLayout>
 
             <FrameLayout
@@ -124,21 +125,21 @@
                 android:clickable="true"
                 android:padding="20dp">
 
-                <Button
-                    android:id="@+id/jokesMenuButton"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#00E0F9FF"
-                    android:text="@string/jokes_button"
-                    android:visibility="visible"
-                    tools:visibility="invisible" />
+<!--                <Button-->
+<!--                    android:id="@+id/jokesMenuButton"-->
+<!--                    style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="@string/jokes_button"-->
+<!--                    android:visibility="invisible"-->
+<!--                    tools:visibility="invisible" />-->
 
-                <ImageView
-                    android:id="@+id/imageView3"
+                <ImageButton
+                    android:id="@+id/jokesMenuButton"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_laughicon" />
+                    android:src="@drawable/ic_laughicon"
+                    android:background="#00FFFFFF"/>
 
             </FrameLayout>
 
