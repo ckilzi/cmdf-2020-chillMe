@@ -77,6 +77,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="false"
+                    android:background="#00FFFFFF"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
                     android:src="@drawable/ic_listenicon" />
@@ -154,7 +155,7 @@
         android:fontFamily="@font/junegull"
         android:shadowColor="#00FF4444"
         android:text="@string/profileButton"
-        android:textColor="@android:color/secondary_text_light"
+        android:textColor="#E91E63"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

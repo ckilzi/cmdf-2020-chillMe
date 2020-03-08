@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,7 +22,8 @@ public class JokesActivity extends AppCompatActivity implements View.OnClickList
     private Button moreJokesButton;
     private TextView setupText;
     private TextView punchlineText;
-
+    private ImageView jokeAnswerSprite;
+    private ImageView newJokeSprite;
     private Joke currentJoke;
     private int currentJokeIndex;
     @Override
@@ -29,7 +31,8 @@ public class JokesActivity extends AppCompatActivity implements View.OnClickList
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.jokes_output);
-
+        jokeAnswerSprite=findViewById(R.id.jokeAnswerSprite);
+        newJokeSprite=findViewById(R.id.newJokeSprite);
         questionButton=findViewById(R.id.questionButton);
         moreJokesButton=findViewById(R.id.nextJoke);
         setupText=findViewById(R.id.setupText);
@@ -59,11 +62,16 @@ public class JokesActivity extends AppCompatActivity implements View.OnClickList
 
         Log.d("DEBUG","setup "+setup);
         punchlineText.setText("");
+        newJokeSprite.setVisibility(View.VISIBLE);
+        jokeAnswerSprite.setVisibility(View.INVISIBLE);
+
     }
     private void showPunchLine(){
         String punchline=currentJoke.getPunchline();
         punchlineText.setText(punchline);
         Log.d("DEBUG","punchline "+punchline);
+        newJokeSprite.setVisibility(View.INVISIBLE);
+        jokeAnswerSprite.setVisibility(View.VISIBLE);
     }
 
 
