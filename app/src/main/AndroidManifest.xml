@@ -28,6 +28,7 @@
         <activity android:name=".ui.Song2Activity" />
         <activity android:name=".ui.Song1Activity" />
         <activity android:name=".ui.MusicActivity" />
+        <activity android:name=".HelpActivity"/>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
