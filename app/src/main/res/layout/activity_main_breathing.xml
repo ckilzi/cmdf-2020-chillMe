@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainBreathing">
+
+    <Button
+        android:id="@+id/Sama_Vritti_Button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/junegull"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/b1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Diaphragmatic_Button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Diaphragmatic_Button"
+        android:layout_width="207dp"
+        android:layout_height="730dp"
+        android:background="@color/secondaryColor"
+        android:fontFamily="@font/junegull"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/b2"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Sama_Vritti_Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Sama_Vritti_Button" />
+
+<!--    < com.tomer.fadingtextview.FadingTextView-->
+<!--        android:id="@+id/fadingText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:texts="@array/text"-->
+<!--        app:timeout="2000"/>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

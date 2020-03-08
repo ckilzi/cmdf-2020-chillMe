@@ -18,4 +18,42 @@
     <string name="add">Add</string>
     <string name="goToMain">Back To Chill</string>
     <string name="profileButton">My Profile</string>
+
+    <string name="breathing_module_name">Breathing Module</string>
+    <string name="b1">Sama Vritti</string>
+    <string name="b1s1">begin this exercise by sitting upright</string>
+    <string name="b1s2">the nature of this exercise is equal breathing</string>
+    <string name="b1s3">breathe in through your nose for 4 counts</string>
+    <string name="b1s4">breathe out through your nose for 4 counts</string>
+    <string name="b1s5">repeat these steps until you feel \n calm enough to continue your day</string>
+    <string name="b2">Diaphragmatic</string>
+    <string name="b2s1">begin this exercise by sitting upright and placing \n one hand on your tummy if you \n feel okay to do so</string>
+    <string name="b2s2">although posture is important for this \n breathing technique, try to remain in \n a position that is comfortable for \n your body and soul</string>
+    <string name="b2s3">breathe in through your nose \n for two seconds then purse your \n lips and exhale for two seconds</string>
+    <string name="b2s4">try to direct all the motion \n to your tummy moving \n in an out while keeping your \n chest as still as possible</string>
+    <string name="b2s5">repeat these steps until you feel \n calm enough to continue your day</string>
+
+    <string name="title_activity_sama__vritti__module">Sama_Vritti_Module</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_sama_vritti">SamaVrittiActivity</string>
+    <string name="title_activity_diaphragmatic">DiaphragmaticActivity</string>
+
+    <string-array name="b1_arr">
+        <item>\u0020</item>
+        <item>begin this exercise by sitting upright</item>
+        <item>the nature of this exercise is equal breathing</item>
+        <item>breathe in through your nose for 4 counts</item>
+        <item>breathe out through your nose for 4 counts</item>
+        <item>repeat these steps until you feel \n calm enough to continue your day</item>
+    </string-array>
+
+    <string-array name="b2_arr">
+        <item>begin this exercise by sitting upright and placing \n one hand on your tummy if you \n feel okay to do so</item>
+        <item>although posture is important for this \n breathing technique, try to remain in \n a position that is comfortable for \n your body and soul</item>
+        <item>breathe in through your nose \n for two seconds then purse your \n lips and exhale for two seconds</item>
+        <item>try to direct all the motion \n to your tummy moving \n in an out while keeping your \n chest as still as possible</item>
+        <item>repeat these steps until you feel \n calm enough to continue your day</item>
+    </string-array>
 </resources>
