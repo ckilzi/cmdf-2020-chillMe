@@ -4,6 +4,115 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".music_layout">
+    tools:context=".MusicActivity">
+
+    <Button
+        android:id="@+id/musicB1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/musicB2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/musicB3"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/musicB4"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/musicB5"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/musicB6"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button4"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/musicB7"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button3"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/musicB8"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/musicB9"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/junegull"
+        android:text="Button1"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.chillme">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.example.chillme.controller.AppController"
+        android:name=".controller.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Song9Activity"></activity>
+        <activity android:name=".Song8Activity" />
+        <activity android:name=".Song7Activity" />
+        <activity android:name=".Song6Activity" />
+        <activity android:name=".Song5Activity" />
+        <activity android:name=".Song4Activity" />
+        <activity android:name=".Song3Activity" />
+        <activity android:name=".Song2Activity" />
+        <activity android:name=".Song1Activity" />
+        <activity android:name=".MusicActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">

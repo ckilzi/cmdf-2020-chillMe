@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Song2Activity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="49dp"
+        android:layout_height="13dp"
+        android:text="play song 2~"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="334dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

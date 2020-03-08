@@ -5,13 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button jokesButton;
@@ -52,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.helpMenuButton:
                 break;
             case R.id.musicMenuButton:
+                Intent music_intent = new Intent(MainActivity.this, MusicActivity.class);
+                startActivity(music_intent);
                 break;
             case R.id.jokesMenuButton:
                 Intent intent= new Intent(MainActivity.this,JokesActivity.class);
