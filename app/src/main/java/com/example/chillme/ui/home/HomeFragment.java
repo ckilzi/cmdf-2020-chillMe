@@ -24,7 +24,7 @@ public class HomeFragment extends Fragment {
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
-
+        final LinearLayout linearLayout = root.findViewById(R.id.mainMenu);
         return root;
     }
 }
