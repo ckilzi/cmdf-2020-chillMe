@@ -67,7 +67,6 @@
     <string name="waterDes">A professor uses an analogy about water bottles to explain how stress can impact us, and why it is so damaging in the long term</string>
     <string name="selfHelpDes">A video offering advice and perspective on surviving hard times and getting out of a rut </string>
     <string-array name="b1_arr">
-        <item>\u0020</item>
         <item>begin this exercise by sitting upright</item>
         <item>the nature of this exercise is equal breathing</item>
         <item>breathe in through your nose for 4 counts</item>
