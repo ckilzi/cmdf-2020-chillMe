@@ -41,7 +41,6 @@
     <string name="title_activity_diaphragmatic">DiaphragmaticActivity</string>
 
     <string-array name="b1_arr">
-        <item>\u0020</item>
         <item>begin this exercise by sitting upright</item>
         <item>the nature of this exercise is equal breathing</item>
         <item>breathe in through your nose for 4 counts</item>
