@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.chillme.ui.MusicActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -56,6 +57,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.helpMenuButton:
                 break;
             case R.id.musicMenuButton:
+                Intent music_intent = new Intent(MainActivity.this, MusicActivity.class);
+                startActivity(music_intent);
+
                 break;
             case R.id.jokesMenuButton:
 

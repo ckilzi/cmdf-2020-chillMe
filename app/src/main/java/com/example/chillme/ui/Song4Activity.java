@@ -1,9 +1,11 @@
-package com.example.chillme;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.chillme.ui;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.chillme.R;
 
 public class Song4Activity extends AppCompatActivity {
 

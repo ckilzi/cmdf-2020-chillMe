@@ -32,15 +32,15 @@
 <!--            app:layout_constraintTop_toTopOf="parent" />-->
 <!--    </FrameLayout>-->
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="88dp"
-        android:layout_height="107dp"
-        android:visibility="visible"
-        app:srcCompat="@drawable/ic_eigth_note_double"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="47dp"
-        tools:visibility="visible" />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView1"-->
+<!--        android:layout_width="88dp"-->
+<!--        android:layout_height="107dp"-->
+<!--        android:visibility="visible"-->
+<!--        app:srcCompat="@drawable/ic_eigth_note_double"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="47dp"-->
+<!--        tools:visibility="visible" />-->
 
     <Button
         android:id="@+id/musicB1"

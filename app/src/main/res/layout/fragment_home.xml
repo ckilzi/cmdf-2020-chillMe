@@ -63,6 +63,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:padding="20dp">
+                <Button
+                    android:id="@+id/musicMenuButton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:visibility="visible"
+                    tools:visibility="invisible"/>
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -73,15 +81,9 @@
                     android:scaleType="centerInside"
                     android:src="@drawable/ic_listenicon" />
 
-                <Button
-                    android:id="@+id/musicMenuButton"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#FFFFFF"
-                    android:text="@string/music_button"
-                    android:visibility="invisible"
-                    tools:visibility="invisible" />
+
+
+
             </FrameLayout>
 
         </LinearLayout>
