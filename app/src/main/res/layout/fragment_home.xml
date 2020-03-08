@@ -81,9 +81,6 @@
                     android:scaleType="centerInside"
                     android:src="@drawable/ic_listenicon" />
 
-
-
-
             </FrameLayout>
 
         </LinearLayout>

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +12,7 @@ import com.example.chillme.R;
 
 public class MusicActivity extends AppCompatActivity implements View.OnClickListener  {
 
-    private Button music_b1, music_b2, music_b3, music_b4, music_b5, music_b6, music_b7, music_b8, music_b9;
+    private ImageButton music_b1, music_b2, music_b3, music_b4, music_b5, music_b6, music_b7, music_b8, music_b9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

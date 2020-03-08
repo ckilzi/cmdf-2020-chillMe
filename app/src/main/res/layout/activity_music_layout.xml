@@ -6,151 +6,124 @@
     android:layout_height="match_parent"
     tools:context=".MusicActivity">
 
-<!--    <FrameLayout-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="20dp">-->
-
-<!--        <ImageView-->
-<!--            android:id="@+id/imageView1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            app:srcCompat="@drawable/ic_eigth_note_double"-->
-<!--            android:visibility="visible"-->
-<!--            tools:visibility="visible" />-->
-
-<!--        <Button-->
-<!--            android:id="@+id/musicB1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="200dp"-->
-<!--            style="@style/Widget.AppCompat.Button.Borderless"-->
-<!--            android:background="#00E0F9FF"-->
-<!--            android:fontFamily="@font/junegull"-->
-<!--            android:text="Button"-->
-<!--            android:visibility="invisible"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="parent" />-->
-<!--    </FrameLayout>-->
-
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView1"-->
-<!--        android:layout_width="88dp"-->
-<!--        android:layout_height="107dp"-->
-<!--        android:visibility="visible"-->
-<!--        app:srcCompat="@drawable/ic_eigth_note_double"-->
-<!--        tools:layout_editor_absoluteX="0dp"-->
-<!--        tools:layout_editor_absoluteY="47dp"-->
-<!--        tools:visibility="visible" />-->
-
-    <Button
+    <ImageButton
         android:id="@+id/musicB1"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button"
+        android:layout_width="155dp"
+        android:layout_height="180dp"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@id/musicB2"
+        app:srcCompat="@drawable/ic_eigth_note_double"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteX="-12dp"
+        android:background="#00E0F9FF"
+        android:padding="20dp"/>
 
-    <Button
+    <ImageButton
         android:id="@+id/musicB2"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="95dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:visibility="visible"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@id/musicB3"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible" />
+        app:srcCompat="@drawable/ic_half_note"
+        tools:visibility="visible"
+        android:background="#00E0F9FF"
+        android:padding="20dp"/>
 
-    <Button
+    <ImageButton
         android:id="@+id/musicB3"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginStart="272dp"
-        android:layout_marginLeft="272dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button"
+        android:layout_width="135dp"
+        android:layout_height="180dp"
+        android:background="#00E0F9FF"
+        android:scaleType="fitXY"
         android:visibility="visible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@id/musicB3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_single_sixteenth_note"
+        android:padding="20dp"/>
 
-    <Button
+    <ImageButton
         android:id="@+id/musicB4"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginTop="200dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button"
+        android:layout_width="115dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="40dp"
+        android:background="#00E0F9FF"
+        android:padding="20dp"
+        android:scaleType="fitXY"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/musicB1"
+        app:srcCompat="@drawable/ic_eigth_drive" />
 
-    <Button
+    <ImageButton
         android:id="@+id/musicB5"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="200dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="40dp"
+        android:background="#00E0F9FF"
+        android:padding="20dp"
+        android:scaleType="fitXY"
         android:visibility="visible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@id/musicB4"
+        app:layout_constraintTop_toBottomOf="@id/musicB2"
+        app:srcCompat="@drawable/ic_treble_clef" />
 
-    <Button
+    <ImageButton
         android:id="@+id/musicB6"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginStart="272dp"
-        android:layout_marginLeft="272dp"
-        android:layout_marginTop="200dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button4"
+        android:layout_width="115dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="40dp"
+        android:background="#00E0F9FF"
+        android:padding="20dp"
+        android:scaleType="fitXY"
         android:visibility="visible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@id/musicB5"
+        app:layout_constraintTop_toBottomOf="@id/musicB3"
+        app:srcCompat="@drawable/ic_dotted_quarter_note" />
 
-    <Button
+    <ImageButton
         android:id="@+id/musicB7"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginTop="400dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button3"
+        android:layout_width="95dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="44dp"
+        android:background="#00E0F9FF"
+        android:padding="20dp"
+        android:scaleType="fitXY"
         android:visibility="visible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/musicB4"
+        app:srcCompat="@drawable/ic_quarter_note"
+        tools:layout_editor_absoluteX="0dp" />
 
-    <Button
+    <ImageButton
         android:id="@+id/musicB8"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="400dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button"
+        android:layout_width="115dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="44dp"
+        android:background="#00E0F9FF"
+        android:padding="20dp"
+        android:scaleType="fitXY"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/musicB5"
+        app:srcCompat="@drawable/ic_dotted_half_note" />
 
-    <Button
+    <ImageButton
         android:id="@+id/musicB9"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginStart="272dp"
-        android:layout_marginLeft="272dp"
-        android:layout_marginTop="400dp"
-        android:fontFamily="@font/junegull"
-        android:text="Button1"
+        android:layout_width="135dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="44dp"
+        android:background="#00E0F9FF"
+        android:padding="20dp"
+        android:scaleType="fitXY"
         android:visibility="visible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-
+        app:layout_constraintStart_toEndOf="@id/musicB8"
+        app:layout_constraintTop_toBottomOf="@id/musicB6"
+        app:srcCompat="@drawable/ic_quarter_note_double" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
